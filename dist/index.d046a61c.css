@@ -539,7 +539,7 @@ figure:hover + span {
   position: absolute;
 }
 
-.login-box a span:nth-child(1) {
+.login-box a span:first-child {
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, #0000, #03e9f4);
@@ -644,13 +644,144 @@ figure:hover + span {
   position: absolute;
 }
 
-@media screen and (min-width: 53em) {
+@media screen and (width >= 53em) {
   .frame {
     grid-gap: 2rem;
     grid-template: "title prev sponsor"
     / auto auto 1fr;
     justify-items: start;
   }
+}
+
+.row_img {
+  flex-wrap: wrap;
+  padding: 0 4px;
+  display: flex;
+}
+
+.column_img {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column_img img {
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+.container_gal {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+  border-radius: 0 3px 3px 0;
+  margin-top: -50px;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+}
+
+.next {
+  border-radius: 3px 0 0 3px;
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: #000c;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  color: #fff;
+  background-color: #222;
+  padding: 2px 16px;
+}
+
+.row_gal:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column_gal {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: .6;
+}
+
+.active, .demo:hover {
+  opacity: 1;
+}
+
+.login-box {
+  width: 500px;
+}
+
+.img_spon img {
+  width: 100px;
+  height: 100px;
+}
+
+.container_merch > a {
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+}
+
+.container_merch > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 2px 16px #0003;
+}
+
+.container_merch {
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-auto-rows: 120px;
+  grid-auto-flow: dense;
+  display: grid;
+}
+
+.horizontal {
+  grid-column: span 2;
+}
+
+.vertical {
+  grid-row: span 2;
+}
+
+.big {
+  grid-area: span 2 / span 2;
 }
 
 /*# sourceMappingURL=index.d046a61c.css.map */

@@ -8,6 +8,7 @@
     <meta name="description" content="Some inspiration for text animations on scroll.">
     <meta name="keywords" content="typography, animation, on-scroll, gsap, ScrollTrigger">
     <meta name="author" content="Maya Shakti">
+    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6984900873450005" crossorigin="anonymous"></script> 
     <link rel="shortcut icon" href="/favicon.824cf0c5.ico">
     <link rel="stylesheet" href="https://use.typekit.net/cvn8slu.css">
     <script src="https://kit.fontawesome.com/87f225abdc.js" crossorigin="anonymous"></script>
@@ -46,9 +47,9 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
                 </ul>
             </li> -->
                             <li class="pushy-link"><a href="/artist.html">ARTIST</a></li>
-                            <li class="pushy-link"><a href="#">GALLERY</a></li>
-                            <li class="pushy-link"><a href="#">CONTACT</a></li>
-                            <li class="pushy-link"><a href="#">ABOUT US</a></li>
+                            <li class="pushy-link"><a href="/gallery.html">GALLERY</a></li>
+                            <li class="pushy-link"><a href="#contact">CONTACT</a></li>
+                            <li class="pushy-link"><a href="/about.html">ABOUT US</a></li>
                         </ul>
                         <!-- REPRODUCTOR DE MUSICA -->
                         <div class="player">
@@ -59,9 +60,11 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
                                 <div class="track-artist">Track Artist</div>
                             </div>
                             <div class="buttons">
-                                <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+                                <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i>
+                                </div>
                                 <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
-                                <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+                                <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i>
+                                </div>
                             </div>
                             <div class="slider_container">
                                 <div class="current-time">00:00</div>
@@ -240,23 +243,110 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
             <h2 class="content__title" data-splitting="" data-effect2=""><span class="font-2">Gallery</span><span class="font-4"></span></h2>
         </div>
         <div class="content">
-            <p>I watch people in the world<br>
-                Throw away their lives lusting after things,<br>
-                Never able to satisfy their desires,<br>
-                Falling into deeper despair<br>
-                And torturing themselves.<br>
-                Even if they get what they want<br>
-                How long will they be able to enjoy it?<br>
-                For one heavenly pleasure<br>
-                They suffer ten torments of hell,<br>
-                Binding themselves more firmly to the grindstone.<br>
-                Such people are like monkeys<br>
-                Frantically grasping for the moon in the water<br>
-                And then falling into a whirlpool.<br>
-                How endlessly those caught up in the floating world suffer.<br>
-                Despite myself, I fret over them all night<br>
-                And cannot staunch my flow of tears.</p>
+            <p>This treasure was discovered in a bamboo thicket &mdash;
+                I washed the bowl in a spring and then mended it.
+                After morning meditation, I take my gruel in it;
+                At night, it serves me soup or rice.
+                Cracked, worn, weather-beaten, and misshapen
+                But still of noble stock!</p>
+
+
+
+            <!-- Container for the image gallery -->
+            <div class="container_gal">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="/gal_1.5d713b6b.jpg" style="width: 100%; height: 50%" class="skewElem">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="/gal_2.86341b09.jpg" style="width: 100%; height: 50%" class="skewElem">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="/gal_3.fc2b0356.jpg" style="width: 100%; height: 50%" class="skewElem">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="/gal_4.e7f2b221.jpg" style="width: 100%; height: 50%" class="skewElem">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="/gal_5.0257a525.jpg" style="width: 100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="/gal_6.564bbe3b.jpg" style="width: 100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row_gal">
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_1.5d713b6b.jpg" style="width: 100%" onclick="currentSlide(1)" alt="The Woods">
+                    </div>
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_2.86341b09.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    </div>
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_3.fc2b0356.jpg" style="width: 100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_4.e7f2b221.jpg" style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_5.0257a525.jpg" style="width: 100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column_gal">
+                        <img class="demo cursor" src="/gal_6.564bbe3b.jpg" style="width: 100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="content">
+            <h2 class="content__title content__title--sides" data-splitting="" data-effect3=""><span class="font-7">Videos</span><span class="font-1">& Lives</span></h2>
+            <div class="row">
+                <div class="col">
+                    <iframe width="480" height="300" src="https://www.youtube.com/embed/NymBrSTZzI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="skewElem"></iframe>
+                    <iframe width="480" height="300" src="https://www.youtube.com/embed/7QOzQiirvJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="skewElem"></iframe>
+                    <iframe width="480" height="300" src="https://www.youtube.com/embed/kttVYUlqPtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="skewElem"></iframe>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" id="form">
+            <div class="col">
+                <div class="login-box">
+                    <form>
+                        <div class="d-flex justify-content-center">
+                            <a href="/artist.html">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                MORE GALLERY
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- <div class="content">
             <h2 class="content__title content__title--sides" data-splitting data-effect3><span class="font-7">The blossoms</span><span class="font-1">have fallen</span></h2>
         </div>
@@ -273,14 +363,11 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
             <h2 class="content__title" data-splitting="" data-effect5=""><span class="font-7">Releases</span><span class="font-6">Music</span></h2>
         </div>
         <div class="content">
-            <p>First blooming in the Western Paradise,
-                The lotus has delighted us for ages.
-                Its white petals are covered with dew,
-                its jade green leaves spread out over the pond,
-                And its pure fragrance perfumes the wind.
-                Cool and majestic, it raises from the murky water.
-                The sun sets behind the mountains
-                But I remain in the darkness, too captivated to leave.</p>
+            <div class="row" style="margin-bottom: 5em">
+                <div class="col" align="center">
+                    <iframe width="80%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1577844307&color=%2352282d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="color: #ccc; line-break: anywhere; word-break: normal; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif; font-size: 10px; font-weight: 100; overflow: hidden"><a href="https://soundcloud.com/mayashaktirecords" title="Maya Shakti Records" target="_blank" style="color: #ccc; text-decoration: none">Maya Shakti Records</a> · <a href="https://soundcloud.com/mayashaktirecords/sets/shiva-vol-4" title="Shiva, Vol. 4" target="_blank" style="color: #ccc; text-decoration: none">Shiva, Vol. 4</a></div>
+                </div>
+            </div>
         </div>
         <div class="content content--full">
             <h2 class="content__title" data-splitting="" data-effect4=""><span class="font-larger">Merch</span><span class="font-upper font-sub font-7">Online</span></h2>
@@ -290,30 +377,148 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
                 Long green sprouts, verdant flowers, fresh promise.
                 Mori, if I ever forget my profound gratitude to you,
                 Let me burn in hell forever.</p>
-            <p>In a dilapidated three-room hut
-                I've grown old and tired;
-                This winter cold is the
-                Worst I've ever suffered through.
-                I sip thin gruel, waiting for the
-                Freezing night to pass.
-                Can I last until spring finally arrives?
-                Unable to beg for rice,
-                How will I survive the chill?
-                Even meditation helps no longer;
-                Nothing left to do but compose poems
-                In memory of deceased friends.</p>
+
+            <div class="container_merch">
+                <a href="#">
+                    <img src="/merch_1.ce00f2df.jpg" class="skewElem">
+                </a>
+
+                <a href="#" class="vertical">
+                    <img src="/merch_2.746c5d3b.jpg" class="skewElem">
+                </a>
+
+                <a href="#" class="horizontal">
+                    <img src="/merch_3.5dd0c12b.jpg" class="skewElem">
+                </a>
+
+                <a href="#">
+                    <img src="/merch_4.a1b83929.jpg" class="skewElem">
+                </a>
+
+                <a href="#">
+                    <img src="/merch_1.ce00f2df.jpg" class="skewElem">
+                </a>
+
+                <a href="#" class="big">
+                    <img src="/merch_2.746c5d3b.jpg" class="skewElem">
+                </a>
+
+                <a href="#">
+                    <img src="/merch_3.5dd0c12b.jpg" class="skewElem">
+                </a>
+
+                <a href="#" class="vertical">
+                    <img src="/merch_4.a1b83929.jpg" class="skewElem">
+                </a>
+
+                <a href="#">
+                    <img src="/merch_1.ce00f2df.jpg" class="skewElem">
+                </a>
+
+                <a href="#" class="horizontal">
+                    <img src="/merch_2.746c5d3b.jpg" class="skewElem">
+                </a>
+
+                <a href="#">
+                    <img src="/merch_3.5dd0c12b.jpg" class="skewElem">
+                </a>
+
+
+                <a href="#" class="vertical">
+                    <img src="/merch_4.a1b83929.jpg" class="skewElem">
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="content">
+        <div class="content" id="contact">
             <h2 class="content__title content__title--small" data-splitting="" data-effect6=""><span class="font-3">Contact</span><span class="font-6"></span></h2>
-            <p>My house is buried in the deepest recess of the forest
-                Every year, ivy vines grow longer than the year before.
-                Undisturbed by the affairs of the world I live at ease,
-                Woodmen’s singing rarely reaching me through the trees.
-                While the sun stays in the sky, I mend my torn clothes
-                And facing the moon, I read holy texts aloud to myself.
-                Let me drop a word of advice for believers of my faith.
-                To enjoy life's immensity, you do not need many things.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="login-box">
+                        <div id="mensaje"></div>
+                        <h2>Subscribe:</h2>
+                        <form>
+
+                            <div class="user-box">
+                                <input type="text" name="user" required="" id="user">
+                                <label>User</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="email" name="email" required="" id="email">
+                                <label>Email</label>
+                            </div>
+                            <div class="float-end">
+                                <a href="#form" id="enviar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Submit
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="login-box">
+                        <div id="mensaje"></div>
+                        
+                        <address>
+                            Phone: <a href="tel: +524423584352"><i class="fas fa-headset"></i>(+52) 44-23-58-43-52</a>
+                            <br>
+                            Label: <a href="mailto: label@mayashaktirecords.com"><i class="fas fa-envelope-open-text"></i>label@mayashaktirecords.com</a> <br>
+                            Booking: <a href="mailto: booking@mayashaktirecords.com"><i class="fas fa-envelope-open-text"></i>booking@mayashaktirecords.com</a>
+                        </address>
+                        <h2>For Booking:</h2>
+                        <form>
+                            <div class="user-box">
+                                <input type="text" name="name" required="" id="name">
+                                <label>Name</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="email" name="email" required="" id="email">
+                                <label>Email</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="text" name="subject" required="" id="subject">
+                                <label>Subject</label>
+                            </div>
+                            <div class="user-box">
+                                <input type="text" name="com" required="" id="com">
+                                <label>Comment</label>
+                            </div>
+                            <div class="float-end">
+                                <a href="#form" id="enviar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Submit
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col" align="center">
+                    <img src="/my.62fd27db.png" alt="" width="250" height="250" class="skewElem">
+                    <p>Listen to us on our different channels:</p>
+                    <div class="img_spon">
+                        <img src="/spotify.fdc9c11a.png" alt="" class="skewElem">
+                        <img src="/beatport.0045b3e6.png" alt="" class="skewElem">
+                        <img src="/spotify.fdc9c11a.png" alt="" class="skewElem">
+                        <img src="/beatport.0045b3e6.png" alt="" class="skewElem">
+                        <img src="/spotify.fdc9c11a.png" alt="" class="skewElem">
+                        <img src="/beatport.0045b3e6.png" alt="" class="skewElem">
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!-- <div class="content">
             <h2 class="content__title" data-splitting data-effect7><span class="font-3">Unfolding</span><span class="font-4">Elegantly</span><span class="font-7">Naturally</span></h2>
@@ -432,12 +637,39 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
         </div> -->
     </main>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+</script>
     <script src="/index.2c854ca1.js"></script>
     <script src="/index.aa69868b.js"></script>
     <script src="/index.a7bae173.js" defer=""></script>
     <script src="/index.739bf03c.js" defer=""></script>
+    <script>let slideIndex = 1;
+showSlides(slideIndex);
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) slideIndex = 1;
+    if (n < 1) slideIndex = slides.length;
+    for(i = 0; i < slides.length; i++)slides[i].style.display = "none";
+    for(i = 0; i < dots.length; i++)dots[i].className = dots[i].className.replace(" active", "");
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+
+</script>
 </body>
 
 </html>

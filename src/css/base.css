@@ -705,3 +705,160 @@ figure:hover+span {
         grid-template-areas: 'title prev sponsor';
     }
 }
+
+
+
+.row_img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column_img {
+    flex: 25%;
+    padding: 0 4px;
+  }
+  
+  .column_img img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container_gal {
+    position: relative;
+   /* margin-bottom: 3em; */
+   margin: 0 auto;
+   
+   width: 70%;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row_gal:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column_gal {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+  .login-box{
+    width: 500px;
+
+  }
+
+  .img_spon img{
+width: 100px;
+height: 100px;
+  }
+
+  .container_merch > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .container_merch > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 2px 16px rgba(0,0,0,.2);;
+  }
+  
+  .container_merch {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-auto-rows: 120px;
+    grid-auto-flow: dense;
+  }
+  
+  .horizontal {
+    grid-column: span 2;
+  }
+  
+  .vertical {
+    grid-row: span 2;
+  }
+  
+  .big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
