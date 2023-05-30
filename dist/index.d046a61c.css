@@ -784,4 +784,49 @@ figure:hover + span {
   grid-area: span 2 / span 2;
 }
 
+.pic_gallery {
+  height: 320px;
+  margin: 5px;
+}
+
+.logo_about {
+  width: 250px;
+  height: 320px;
+  margin: 5px;
+}
+
+.indem_pic_gallery {
+  width: 100%;
+  height: 250px;
+}
+
+.about_text {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.foot {
+  width: 100%;
+  height: 250px;
+}
+
+.foot img {
+  width: 200px;
+  height: 200px;
+}
+
+.img_spon_foot img {
+  width: 45px;
+  height: 45px;
+}
+
+.merch_modal img {
+  width: 200px;
+  height: 200px;
+}
+
+.modal-content {
+  background-color: #222;
+}
+
 /*# sourceMappingURL=index.d046a61c.css.map */

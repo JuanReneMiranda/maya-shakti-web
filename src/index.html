@@ -358,7 +358,7 @@
                 <div class="login-box">
                     <form>
                         <div class="d-flex justify-content-center">
-                            <a href="artist.html">
+                            <a href="gallery.html">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -404,13 +404,13 @@
                 Mori, if I ever forget my profound gratitude to you,
                 Let me burn in hell forever.</p>
 
-            <div class="container_merch">
-                <a href="#">
-                    <img src="img/merch/merch_1.jpg" class="skewElem" />
+            <div class="container_merch" id="merch">
+                <a href="#merch">
+                    <img src="img/merch/merch_1.png" class="skewElem" data-bs-toggle="modal" data-bs-target="#merch_1" />
                 </a>
 
-                <a href="#" class="vertical">
-                    <img src="img/merch/merch_2.jpg" class="skewElem" />
+                <a href="#merch" class="vertical">
+                    <img src="img/merch/merch_2.png" class="skewElem" data-bs-toggle="modal" data-bs-target="#merch_2" />
                 </a>
 
                 <a href="#" class="horizontal">
@@ -538,12 +538,13 @@
                     <img src="img/my.png" alt="" width="250" height="250" class="skewElem">
                     <p>Listen to us on our different channels:</p>
                     <div class="img_spon">
-                        <img src="img/spotify.png" alt="" class="skewElem">
-                        <img src="img/beatport.png" alt="" class="skewElem">
-                        <img src="img/spotify.png" alt="" class="skewElem">
-                        <img src="img/beatport.png" alt="" class="skewElem">
-                        <img src="img/spotify.png" alt="" class="skewElem">
-                        <img src="img/beatport.png" alt="" class="skewElem">
+                       <a href="https://www.facebook.com/mayashaktirecords/" target="_blank"><img src="img/facebook.png" alt="" class="skewElem"></a>
+                       <a href="https://www.instagram.com/mayashaktirecords/" target="_blank"><img src="img/instagram.png" alt="" class="skewElem"></a>
+                       <a href="https://twitter.com/mayashaktimx" target="_blank"><img src="img/twitter.png" alt="" class="skewElem"></a>
+                       <a href="https://www.youtube.com/c/MayaShaktiRecords" target="_blank"><img src="img/youtube.png" alt="" class="skewElem"></a>
+                       <a href="https://soundcloud.com/mayashaktirecords" target="_blank"><img src="img/soundcloud.png" alt="" class="skewElem"></a>
+                       <a href="https://twitter.com/mayashaktimx" target="_blank"><img src="img/beatport.png" alt="" class="skewElem"></a>
+                       <a href="https://twitter.com/mayashaktimx" target="_blank"><img src="img/spotify.png" alt="" class="skewElem"></a>
                     </div>
                 </div>
             </div>
@@ -665,54 +666,98 @@
             <p>It is not easy to let go of our attachment to material possessions and desires. It takes discipline, focus and a certain level of detachment from the world around us. But by taking the time to slow down and appreciate the beauty of nature, and by quieting the mind and listening to the inner voice, we can find the path to true fulfillment.</p>
         </div> -->
     </main>
-    <script src="https://code.jquery.com/jquery-3.6.4.js"
-        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
-    </script>
-    <script type="java/script" src="js/pushy.min.js"></script>
-    <script type="java/script" src="js/main.js"></script>
-    <script type="module" src="js/mayash.js"></script>
-    <script type="module" src="js/index.js"></script>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+                      <!-- Modal -->
+                      <div class="modal fade" id="merch_1" tabindex="-1" aria-labelledby="merch_1Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="merch_1Label">Merch Gorra</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="merch_modal d-flex flex-row">
+                              <img src="img/merch/merch_1.png" alt="">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nulla aliquam tenetur, illo blanditiis nobis! Ratione omnis, libero inventore reprehenderit excepturi sapiente est adipisci quibusdam dolorem dicta veritatis incidunt quisquam!</p>
+                            </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-outline-light">Buy!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <!-- Modal -->
 
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("demo");
-            let captionText = document.getElementById("caption");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
-        }
-    </script>
+                                              <!-- Modal -->
+                      <div class="modal fade" id="merch_2" tabindex="-1" aria-labelledby="merch_2Label" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="merch_2Label">Merch Gorra</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="merch_modal d-flex flex-row">
+                              <img src="img/merch/merch_2.png" alt="">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nulla aliquam tenetur, illo blanditiis nobis! Ratione omnis, libero inventore reprehenderit excepturi sapiente est adipisci quibusdam dolorem dicta veritatis incidunt quisquam!</p>
+                            </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-outline-light">Buy!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        <!-- Modal -->
 </body>
+<script src="https://code.jquery.com/jquery-3.6.4.js"
+integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous">
+</script>
+<script type="java/script" src="js/pushy.min.js"></script>
+<script type="java/script" src="js/main.js"></script>
+<script type="module" src="js/mayash.js"></script>
+<script type="module" src="js/index.js"></script>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+</script>
 </html>
