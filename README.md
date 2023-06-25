@@ -9,6 +9,7 @@ Install dependencies:
 
 ```
 npm install
+npm install --no-fund
 ```
 
 Compile the code for development and start a local server:
