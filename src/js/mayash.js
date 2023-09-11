@@ -5,8 +5,6 @@ function hideListen(){
 
 setInterval(hideListen, 5500);
 
-<<<<<<< HEAD
-=======
 
 $( ".ir-arriba" ).on( "click", function() {
   $('body, html').animate({
@@ -21,4 +19,3 @@ $(window).on( "scroll", function() {
       $('.ir-arriba').slideUp(300);
   }
 });
->>>>>>> be57b34 (Avance 2)

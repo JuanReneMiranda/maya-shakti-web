@@ -21,17 +21,14 @@
     "url": "https://mayashaktirecords.com/issues"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "parcel": "^2.9.0"
-=======
     "parcel": "^2.9.2"
->>>>>>> be57b34 (Avance 2)
   },
   "dependencies": {
     "@studio-freight/lenis": "^0.2.28",
     "gsap": "^3.11.4",
     "jquery": "^3.7.0",
     "lightbox2": "^2.11.0",
+    "bootstrap": "^5.0.0",
     "splitting": "^1.0.6"
   }
 }

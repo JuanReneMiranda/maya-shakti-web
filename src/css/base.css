@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 @font-face {
     font-family: mayafont;
     src: url('../css/siamese.ttf');
 }
->>>>>>> be57b34 (Avance 2)
 *,
 *::after,
 *::before {
@@ -214,21 +211,14 @@ main {
 }
 
 .intro__title-pre {
-<<<<<<< HEAD
-    font-family: norman-stencil, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 800;
     text-transform: uppercase;
     font-size: clamp(2rem, 10vw, 9rem);
 }
 
 .intro__title-sub {
-<<<<<<< HEAD
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-size: clamp(1rem, 6vw, 2.75rem);
 }
 
@@ -318,20 +308,12 @@ main {
 }
 
 .font-2 {
-<<<<<<< HEAD
-    font-family: campaign-serif, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 400;
 }
 
 .font-3 {
-<<<<<<< HEAD
-    font-family: area-normal, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 600;
 }
 
@@ -342,30 +324,18 @@ main {
 }
 
 .font-5 {
-<<<<<<< HEAD
-    font-family: zedou, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 300;
     text-transform: uppercase;
 }
 
 .font-6 {
-<<<<<<< HEAD
-    font-family: afronaut, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 400;
 }
 
 .font-7 {
-<<<<<<< HEAD
-    font-family: hoss-round-wide, sans-serif;
-=======
     font-family: mayafont;
->>>>>>> be57b34 (Avance 2)
     font-weight: 400;
 }
 
@@ -725,8 +695,6 @@ figure:hover+span {
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .pic_logo_hum {
     position: relative;
     bottom: 40%;
@@ -751,7 +719,6 @@ figure:hover+span {
     text-align: center;
 }
 
->>>>>>> be57b34 (Avance 2)
 .menu_maya {
     position: absolute;
     top: 0;
@@ -794,13 +761,8 @@ figure:hover+span {
     position: relative;
    /* margin-bottom: 3em; */
    margin: 0 auto;
-<<<<<<< HEAD
-   
-   width: 70%;
-=======
    width: 60%;
    height: 60%;
->>>>>>> be57b34 (Avance 2)
   }
   
   /* Hide the images by default */
@@ -971,9 +933,6 @@ height: 100px;
 .modal-content{
     background-color: #222;
 }
-<<<<<<< HEAD
-  
-=======
 
 .img_spon_foot .beatportlog{
     width: 72px;
@@ -1003,4 +962,3 @@ height: 100px;
     bottom: 20px;
     left: 20px;
 }
->>>>>>> be57b34 (Avance 2)

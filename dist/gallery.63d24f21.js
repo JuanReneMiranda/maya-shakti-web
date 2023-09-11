@@ -1011,22 +1011,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{"dcadf8a8302165ae":"hgMhh"}],"hgMhh":[function(require,module,exports) {
 /*!
-<<<<<<< HEAD
- * jQuery JavaScript Library v3.7.0
-=======
  * jQuery JavaScript Library v3.7.1
->>>>>>> be57b34 (Avance 2)
  * https://jquery.com/
  *
  * Copyright OpenJS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
  *
-<<<<<<< HEAD
- * Date: 2023-05-11T18:29Z
-=======
  * Date: 2023-08-28T13:37Z
->>>>>>> be57b34 (Avance 2)
  */ (function(global, factory) {
     "use strict";
     if (typeof module.exports === "object") // For CommonJS and CommonJS-like environments where a proper `window`
@@ -1111,11 +1103,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
     /* global Symbol */ // Defining this global in .eslintrc.json would create a danger of using the global
     // unguarded in another place, it seems safer to define global only for this module
-<<<<<<< HEAD
-    var version = "3.7.0", rhtmlSuffix = /HTML$/i, // Define a local copy of jQuery
-=======
     var version = "3.7.1", rhtmlSuffix = /HTML$/i, // Define a local copy of jQuery
->>>>>>> be57b34 (Avance 2)
     jQuery = function(selector, context) {
         // The jQuery object is actually just the init constructor 'enhanced'
         // Need init if jQuery is called (just allow error to be thrown if not included)
@@ -1283,14 +1271,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
             if (!nodeType) // If no nodeType, this is expected to be an array
             while(node = elem[i++])// Do not traverse comment nodes
             ret += jQuery.text(node);
-<<<<<<< HEAD
-            else if (nodeType === 1 || nodeType === 9 || nodeType === 11) return elem.textContent;
-            else if (nodeType === 3 || nodeType === 4) return elem.nodeValue;
-=======
             if (nodeType === 1 || nodeType === 11) return elem.textContent;
             if (nodeType === 9) return elem.documentElement.textContent;
             if (nodeType === 3 || nodeType === 4) return elem.nodeValue;
->>>>>>> be57b34 (Avance 2)
             // Do not include comment or processing instruction nodes
             return ret;
         },
@@ -1698,14 +1681,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
             // Older browsers didn't support unprefixed `matches`.
             matches = documentElement.matches || documentElement.webkitMatchesSelector || documentElement.msMatchesSelector;
             // Support: IE 9 - 11+, Edge 12 - 18+
-<<<<<<< HEAD
-            // Accessing iframe documents after unload throws "permission denied" errors (see trac-13936)
-            // Support: IE 11+, Edge 17 - 18+
-            // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
-            // two documents; shallow comparisons work.
-            // eslint-disable-next-line eqeqeq
-            if (preferredDoc != document && (subWindow = document.defaultView) && subWindow.top !== subWindow) // Support: IE 9 - 11+, Edge 12 - 18+
-=======
             // Accessing iframe documents after unload throws "permission denied" errors
             // (see trac-13936).
             // Limit the fix to IE & Edge Legacy; despite Edge 15+ implementing `matches`,
@@ -1715,7 +1690,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
             // two documents; shallow comparisons work.
             // eslint-disable-next-line eqeqeq
             preferredDoc != document && (subWindow = document.defaultView) && subWindow.top !== subWindow) // Support: IE 9 - 11+, Edge 12 - 18+
->>>>>>> be57b34 (Avance 2)
             subWindow.addEventListener("unload", unloadHandler);
             // Support: IE <10
             // Check if getElementById returns elements by name
@@ -2694,21 +2668,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
         // Deprecated
         jQuery.expr[":"] = jQuery.expr.pseudos;
         jQuery.unique = jQuery.uniqueSort;
-<<<<<<< HEAD
-        // These have always been private, but they used to be documented
-        // as part of Sizzle so let's maintain them in the 3.x line
-        // for backwards compatibility purposes.
-        find.compile = compile;
-        find.select = select;
-        find.setDocument = setDocument;
-=======
         // These have always been private, but they used to be documented as part of
         // Sizzle so let's maintain them for now for backwards compatibility purposes.
         find.compile = compile;
         find.select = select;
         find.setDocument = setDocument;
         find.tokenize = tokenize;
->>>>>>> be57b34 (Avance 2)
         find.escape = jQuery.escapeSelector;
         find.getText = jQuery.text;
         find.isXML = jQuery.isXMLDoc;
@@ -4758,11 +4723,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
                 }
                 if (hasScripts) {
                     doc = scripts[scripts.length - 1].ownerDocument;
-<<<<<<< HEAD
-                    // Reenable scripts
-=======
                     // Re-enable scripts
->>>>>>> be57b34 (Avance 2)
                     jQuery.map(scripts, restoreScript);
                     // Evaluate executable scripts on first document insertion
                     for(i = 0; i < hasScripts; i++){
@@ -5060,11 +5021,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
                     tr = document.createElement("tr");
                     trChild = document.createElement("div");
                     table.style.cssText = "position:absolute;left:-11111px;border-collapse:separate";
-<<<<<<< HEAD
-                    tr.style.cssText = "border:1px solid";
-=======
                     tr.style.cssText = "box-sizing:content-box;border:1px solid";
->>>>>>> be57b34 (Avance 2)
                     // Support: Chrome 86+
                     // Height set through cssText does not get applied.
                     // Computed height then comes back as 0.
@@ -5074,11 +5031,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
                     // In our bodyBackground.html iframe,
                     // display for all div elements is set to "inline",
                     // which causes a problem only in Android 8 Chrome 86.
-<<<<<<< HEAD
-                    // Ensuring the div is display: block
-=======
                     // Ensuring the div is `display: block`
->>>>>>> be57b34 (Avance 2)
                     // gets around this issue.
                     trChild.style.display = "block";
                     documentElement.appendChild(table).appendChild(tr).appendChild(trChild);
@@ -7666,11 +7619,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
             return arguments.length === 1 ? this.off(selector, "**") : this.off(types, selector || "**", fn);
         },
         hover: function(fnOver, fnOut) {
-<<<<<<< HEAD
-            return this.mouseenter(fnOver).mouseleave(fnOut || fnOver);
-=======
             return this.on("mouseenter", fnOver).on("mouseleave", fnOut || fnOver);
->>>>>>> be57b34 (Avance 2)
         }
     });
     jQuery.each("blur focus focusin focusout resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu".split(" "), function(_i, name) {
