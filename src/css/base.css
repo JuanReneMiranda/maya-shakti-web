@@ -934,9 +934,23 @@ height: 100px;
     background-color: #222;
 }
 
+.img_spon_foot i{
+    margin: 2px;
+    padding-top: 15px;
+}
+
 .img_spon_foot .beatportlog{
-    width: 72px;
-    height: 72px;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    bottom: 10;
+}
+
+.img_spon .beatportlog2{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 18;
 }
 
 .logo_alpha {
