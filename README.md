@@ -1,4 +1,4 @@
-# MAYA SHAKTI RECORDS
+# MAYA SHAKTI RECORDS WEB
 
 Web Design for the Web Site Maya Shakti Records.
 

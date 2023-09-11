@@ -28,7 +28,7 @@
     "gsap": "^3.11.4",
     "jquery": "^3.7.0",
     "lightbox2": "^2.11.0",
-    "bootstrap": "^5.0.0",
+    "bootstrap": "^5.0.1",
     "splitting": "^1.0.6"
   }
 }
