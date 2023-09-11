@@ -21,7 +21,11 @@
     "url": "https://mayashaktirecords.com/issues"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "parcel": "^2.9.0"
+=======
+    "parcel": "^2.9.2"
+>>>>>>> be57b34 (Avance 2)
   },
   "dependencies": {
     "@studio-freight/lenis": "^0.2.28",

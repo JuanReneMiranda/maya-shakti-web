@@ -14,10 +14,17 @@ body.lb-disable-scrolling {
 }
 
 .lightbox {
+<<<<<<< HEAD
   width: 100%;
   z-index: 10000;
   text-align: center;
   outline: none;
+=======
+  z-index: 10000;
+  text-align: center;
+  outline: none;
+  width: 100%;
+>>>>>>> be57b34 (Avance 2)
   font-weight: normal;
   line-height: 0;
   position: absolute;
@@ -25,11 +32,19 @@ body.lb-disable-scrolling {
 }
 
 .lightbox .lb-image {
+<<<<<<< HEAD
   height: auto;
   max-width: inherit;
   max-height: none;
   border: 4px solid #fff;
   border-radius: 3px;
+=======
+  max-width: inherit;
+  border: 4px solid #fff;
+  border-radius: 3px;
+  height: auto;
+  max-height: none;
+>>>>>>> be57b34 (Avance 2)
   display: block;
 }
 
@@ -39,10 +54,17 @@ body.lb-disable-scrolling {
 
 .lb-outerContainer {
   zoom: 1;
+<<<<<<< HEAD
   width: 250px;
   height: 250px;
   background-color: #fff;
   border-radius: 4px;
+=======
+  background-color: #fff;
+  border-radius: 4px;
+  width: 250px;
+  height: 250px;
+>>>>>>> be57b34 (Avance 2)
   margin: 0 auto;
   position: relative;
 }
@@ -54,9 +76,15 @@ body.lb-disable-scrolling {
 }
 
 .lb-loader {
+<<<<<<< HEAD
   height: 25%;
   width: 100%;
   text-align: center;
+=======
+  text-align: center;
+  width: 100%;
+  height: 25%;
+>>>>>>> be57b34 (Avance 2)
   line-height: 0;
   position: absolute;
   top: 43%;
@@ -64,17 +92,29 @@ body.lb-disable-scrolling {
 }
 
 .lb-cancel {
+<<<<<<< HEAD
   width: 32px;
   height: 32px;
   background: url("loading.418a60b0.gif") no-repeat;
+=======
+  background: url("loading.418a60b0.gif") no-repeat;
+  width: 32px;
+  height: 32px;
+>>>>>>> be57b34 (Avance 2)
   margin: 0 auto;
   display: block;
 }
 
 .lb-nav {
+<<<<<<< HEAD
   height: 100%;
   width: 100%;
   z-index: 10;
+=======
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+>>>>>>> be57b34 (Avance 2)
   position: absolute;
   top: 0;
   left: 0;
@@ -90,18 +130,30 @@ body.lb-disable-scrolling {
 }
 
 .lb-prev, .lb-next {
+<<<<<<< HEAD
   height: 100%;
   cursor: pointer;
+=======
+  cursor: pointer;
+  height: 100%;
+>>>>>>> be57b34 (Avance 2)
   display: block;
 }
 
 .lb-nav a.lb-prev {
+<<<<<<< HEAD
   width: 34%;
+=======
+>>>>>>> be57b34 (Avance 2)
   float: left;
   filter: progid:DXImageTransform. Microsoft. Alpha(Opacity= 0);
   opacity: 0;
   -o-transition: opacity .6s;
   background: url("prev.c40567f4.png") 0 48% no-repeat;
+<<<<<<< HEAD
+=======
+  width: 34%;
+>>>>>>> be57b34 (Avance 2)
   transition: opacity .6s;
   left: 0;
 }
@@ -112,12 +164,19 @@ body.lb-disable-scrolling {
 }
 
 .lb-nav a.lb-next {
+<<<<<<< HEAD
   width: 64%;
+=======
+>>>>>>> be57b34 (Avance 2)
   float: right;
   filter: progid:DXImageTransform. Microsoft. Alpha(Opacity= 0);
   opacity: 0;
   -o-transition: opacity .6s;
   background: url("next.23821cb3.png") right 48% no-repeat;
+<<<<<<< HEAD
+=======
+  width: 64%;
+>>>>>>> be57b34 (Avance 2)
   transition: opacity .6s;
   right: 0;
 }
@@ -129,9 +188,15 @@ body.lb-disable-scrolling {
 
 .lb-dataContainer {
   zoom: 1;
+<<<<<<< HEAD
   width: 100%;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
+=======
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 100%;
+>>>>>>> be57b34 (Avance 2)
   margin: 0 auto;
   padding-top: 5px;
 }
@@ -148,9 +213,15 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
+<<<<<<< HEAD
   width: 85%;
   float: left;
   text-align: left;
+=======
+  float: left;
+  text-align: left;
+  width: 85%;
+>>>>>>> be57b34 (Avance 2)
   line-height: 1.1em;
 }
 
@@ -174,14 +245,22 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-close {
   float: right;
+<<<<<<< HEAD
   width: 30px;
   height: 30px;
+=======
+>>>>>>> be57b34 (Avance 2)
   text-align: right;
   filter: progid:DXImageTransform. Microsoft. Alpha(Opacity= 70);
   opacity: .7;
   -o-transition: opacity .2s;
   background: url("close.cf02cf3a.png") 100% 0 no-repeat;
   outline: none;
+<<<<<<< HEAD
+=======
+  width: 30px;
+  height: 30px;
+>>>>>>> be57b34 (Avance 2)
   transition: opacity .2s;
   display: block;
 }

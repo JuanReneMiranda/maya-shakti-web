@@ -11,10 +11,128 @@
     position: relative;
     height: 520px;
     width:100%;
+<<<<<<< HEAD
     background: url('../img/footer_indemonium.png');
     background-repeat: no-repeat;
     background-size: cover;
+=======
+    background: url('../img/indemonium_down.png');
+    background-repeat: no-repeat;
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_ali{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/aligroove_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_antaluk{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/antaluk_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_antidota{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/antidota_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+.back_humalien{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/humalien_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_introspect{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/introspect_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_knockout{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/knockout_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+>>>>>>> be57b34 (Avance 2)
     opacity: 0.2;
 }
 
 
+<<<<<<< HEAD
+=======
+.back_rematic{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/rematic_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_polsk{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/polsk_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_rekiem{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/rekiem_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_muzzyk{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/muzzzyk_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+
+.back_zandza{
+    position: relative;
+    height: 520px;
+    width:100%;
+    background: url('../img/zandza_down.png');
+    background-size: 100% 520px;
+    background-position: center;
+    opacity: 0.2;
+}
+>>>>>>> be57b34 (Avance 2)
