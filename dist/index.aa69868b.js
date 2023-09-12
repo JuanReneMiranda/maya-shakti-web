@@ -17,22 +17,22 @@ let curr_track = document.createElement("audio");
 // Define the tracks that have to be played
 let track_list = [
     {
-        name: "Mad Cow Somatic Cell",
+        name: "Secrets Of The Universe",
         artist: "Knock Out",
-        image: "https://mayashaktirecords.com/music_web/knockout.jpg",
-        path: "https://mayashaktirecords.com/music_web/MadCowSomaticCell.mp3"
+        image: "https://mayashaktirecords.com/music/knockout.png",
+        path: "https://mayashaktirecords.com/music/KnockOut-SecretsOfTheUniverse.mp3"
     },
     {
-        name: "Alien Information",
-        artist: "Humalien & Cloviz",
-        image: "https://mayashaktirecords.com/music_web/humalien.jpeg",
-        path: "https://mayashaktirecords.com/music_web/AlienInformation.mp3"
+        name: "Antz",
+        artist: "Antaluk",
+        image: "https://mayashaktirecords.com/music/shiva.png",
+        path: "https://mayashaktirecords.com/music/Antaluk-Antz.mp3"
     },
     {
-        name: "Reflections",
-        artist: "Indemonium",
-        image: "https://mayashaktirecords.com/music_web/indemonium.jpg",
-        path: "https://mayashaktirecords.com/music_web/Reflections.mp3"
+        name: "Alien Invasion",
+        artist: "Humalien vs Dry Ice",
+        image: "https://mayashaktirecords.com/music/humalien.png",
+        path: "https://mayashaktirecords.com/music/HumalienDryIce-AlienInvasion.mp3"
     }
 ];
 // function random_bg_color() {
