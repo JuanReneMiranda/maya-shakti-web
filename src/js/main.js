@@ -24,20 +24,20 @@ let track_list = [
   {
     name: "Secrets Of The Universe",
     artist: "Knock Out",
-    image: "https://mayashaktirecords.com/music/knockout.png",
-    path: "https://mayashaktirecords.com/music/KnockOut-SecretsOfTheUniverse.mp3"
+    image: "./knockout.png",
+    path: "./KnockOut-SecretsOfTheUniverse.mp3"
   },
   {
     name: "Antz",
     artist: "Antaluk",
-    image: "https://mayashaktirecords.com/music/shiva.png",
-    path: "https://mayashaktirecords.com/music/Antaluk-Antz.mp3"
+    image: "shiva.png",
+    path: "Antaluk-Antz.mp3"
   },
   {
     name: "Alien Invasion",
     artist: "Humalien vs Dry Ice",
-    image: "https://mayashaktirecords.com/music/humalien.png",
-    path: "https://mayashaktirecords.com/music/HumalienDryIce-AlienInvasion.mp3",
+    image: "humalien.png",
+    path: "HumalienDryIce-AlienInvasion.mp3",
   },
 ];
 
