@@ -1,5 +1,4 @@
 @font-face {font-family: mayafont;src: url('../css/siamese.ttf');}
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 *,
 *::after,
 *::before {
@@ -975,6 +974,12 @@ height: 100px;
     left: 20px;
 }
 
+
+.logo_menu_maya{
+width: 150px;
+height: 150px;
+margin-left: 22px;
+}
 
 /* SLIDER */
 .container_releases {
