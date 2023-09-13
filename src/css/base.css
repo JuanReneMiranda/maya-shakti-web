@@ -1,7 +1,5 @@
-@font-face {
-    font-family: mayafont;
-    src: url('../css/siamese.ttf');
-}
+@font-face {font-family: mayafont;src: url('../css/siamese.ttf');}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 *,
 *::after,
 *::before {
@@ -976,3 +974,78 @@ height: 100px;
     bottom: 20px;
     left: 20px;
 }
+
+
+/* SLIDER */
+.container_releases {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap: 10px;
+}
+.container_releases > div {
+    flex: 0 0 120px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+}
+.container_releases > div:nth-of-type(1) {
+    background: url("../img/r1.png") no-repeat 50% / cover;
+}
+.container_releases > div:nth-of-type(2) {
+    background: url("../img/r2.png") no-repeat 50% / cover;
+}
+.container_releases > div:nth-of-type(3) {
+    background: url("../img/r3.png") no-repeat 50% / cover;
+}
+.container_releases > div:nth-of-type(4) {
+    background: url("../img/r4.png") no-repeat 50% / cover;
+}
+
+.container_releases > div:nth-of-type(5) {
+    background: url("../img/r5.png") no-repeat 50% / cover;
+}
+
+.container_releases > div:nth-of-type(6) {
+    background: url("../img/r6.png") no-repeat 50% / cover;
+}
+.container_releases > div .content_releases {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    background: #02022e;
+    background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077030812324) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: translatey(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+}
+.container_releases > div .content_releases span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+.container_releases > div:hover {
+    flex: 0 0 250px;
+    box-shadow: 1px 3px 15px #7645d8;
+    transform: translatey(-30px);
+}
+.container_releases > div:hover .content_releases {
+    opacity: 1;
+    transform: translatey(0%);
+    visibility: visible;
+}
+
+
+
+
+/* SLIDER */

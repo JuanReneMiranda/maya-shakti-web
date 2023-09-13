@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/*.html src/js/*.js src/css/*.css --no-content-hash --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index.html --public-url .",
     "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "url": "https://mayashaktirecords.com/issues"
   },
   "devDependencies": {
-    "parcel": "^2.9.2"
+    "parcel": "latest"
   },
   "dependencies": {
     "@studio-freight/lenis": "^0.2.28",
