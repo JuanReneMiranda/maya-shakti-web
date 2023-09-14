@@ -524,7 +524,7 @@ figure:hover+span {
 .login-box .user-box input {
     width: 100%;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 30px;
     border: none;
@@ -557,7 +557,7 @@ figure:hover+span {
     display: inline-block;
     padding: 10px 20px;
     color: #03e9f4;
-    font-size: 16px;
+    font-size: 24px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -692,15 +692,71 @@ figure:hover+span {
     text-align: center;
 }
 
-.pic_logo_hum {
+.pic_logo_artist {
     position: relative;
     bottom: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     padding: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.pic_logo_antaluk{
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.pic_logo_antidota{
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 180px;
+    height: 250px;
+    text-align: center;
+}
+
+.pic_logo_introspect{
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+}
+
+.pic_logo_hum {
+    position: relative;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     width: 200px;
     height: 150px;
+    text-align: center;
+}
+
+.pic_logo_knock {
+    position: relative;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding-top: 2em;
+    width: 130px;
+    height: 130px;
     text-align: center;
 }
 
@@ -711,6 +767,39 @@ figure:hover+span {
     transform: translate(-50%, -50%);
     z-index: 2;
     padding: 20px;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+}
+
+.pic_logo_indem {
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+}
+
+.pic_logo_muzz {
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+}
+
+.pic_logo_rekiem {
+    position: relative;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     width: 200px;
     height: 180px;
     text-align: center;
@@ -741,13 +830,13 @@ figure:hover+span {
   }
   
   /* Create two equal columns that sits next to each other */
-  .column_img {
+  .column_img2 {
     flex: 25%;
     padding: 0 4px;
   }
   
-  .column_img img {
-    margin-top: 8px;
+  .column_img2 img {
+    margin-top: 24px;
     vertical-align: middle;
   }
 

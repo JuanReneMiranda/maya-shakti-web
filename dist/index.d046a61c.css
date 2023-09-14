@@ -491,7 +491,7 @@ figure:hover + span {
   width: 100%;
   margin-bottom: 30px;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .login-box .user-box label {
@@ -518,7 +518,7 @@ figure:hover + span {
   letter-spacing: 4px;
   margin-top: 40px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 24px;
   text-decoration: none;
   transition: all .5s;
   display: inline-block;
@@ -623,7 +623,7 @@ figure:hover + span {
   transition: all .5s;
 }
 
-.pic_logo {
+.pic_logo, .pic_logo_artist {
   z-index: 2;
   text-align: center;
   width: 150px;
@@ -635,14 +635,58 @@ figure:hover + span {
   transform: translate(-50%, -50%);
 }
 
+.pic_logo_antaluk {
+  z-index: 2;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_antidota {
+  z-index: 2;
+  text-align: center;
+  width: 180px;
+  height: 250px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_introspect {
+  z-index: 2;
+  text-align: center;
+  width: 200px;
+  height: 280px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .pic_logo_hum {
   z-index: 2;
   text-align: center;
   width: 200px;
   height: 150px;
-  padding: 20px;
   position: relative;
-  bottom: 40%;
+  bottom: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_knock {
+  z-index: 2;
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  padding-top: 2em;
+  position: relative;
+  bottom: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -653,6 +697,39 @@ figure:hover + span {
   width: 200px;
   height: 180px;
   padding: 20px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_indem {
+  z-index: 2;
+  text-align: center;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_muzz {
+  z-index: 2;
+  text-align: center;
+  width: 180px;
+  height: 120px;
+  position: relative;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pic_logo_rekiem {
+  z-index: 2;
+  text-align: center;
+  width: 200px;
+  height: 180px;
   position: relative;
   bottom: 40%;
   left: 50%;
@@ -680,14 +757,14 @@ figure:hover + span {
   display: flex;
 }
 
-.column_img {
+.column_img2 {
   flex: 25%;
   padding: 0 4px;
 }
 
-.column_img img {
+.column_img2 img {
   vertical-align: middle;
-  margin-top: 8px;
+  margin-top: 24px;
 }
 
 .container_gal {
