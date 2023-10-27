@@ -679,6 +679,70 @@ figure:hover+span {
     transition: 0.5s;
 }
 
+.ali_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.ant_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.anti_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.hum_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.intro_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.knock_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.rema_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.logo_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.indem_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.muzz_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.polsk_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.rek_phot{
+    width: 100%;
+    height: 100%;
+}
+
+.zandz_phot{
+    width: 100%;
+    height: 100%;
+}
 /* Position text in the middle of the page/image */
 .pic_logo {
     position: relative;
@@ -694,7 +758,7 @@ figure:hover+span {
 
 .pic_logo_artist {
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -706,7 +770,7 @@ figure:hover+span {
 
 .pic_logo_antaluk{
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -717,7 +781,7 @@ figure:hover+span {
 
 .pic_logo_antidota{
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -728,7 +792,7 @@ figure:hover+span {
 
 .pic_logo_introspect{
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -739,7 +803,7 @@ figure:hover+span {
 
 .pic_logo_hum {
     position: relative;
-    bottom: 35%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -750,7 +814,7 @@ figure:hover+span {
 
 .pic_logo_knock {
     position: relative;
-    bottom: 35%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -762,7 +826,7 @@ figure:hover+span {
 
 .pic_logo_anti {
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -774,7 +838,7 @@ figure:hover+span {
 
 .pic_logo_indem {
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -785,7 +849,7 @@ figure:hover+span {
 
 .pic_logo_muzz {
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -796,7 +860,7 @@ figure:hover+span {
 
 .pic_logo_rekiem {
     position: relative;
-    bottom: 40%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -808,7 +872,7 @@ figure:hover+span {
 .menu_maya {
     position: absolute;
     top: 0;
-    left: o;
+    left: 0;
 }
 
 @media screen and (min-width: 53em) {
@@ -1139,7 +1203,18 @@ margin-left: 22px;
     visibility: visible;
 }
 
-
-
-
 /* SLIDER */
+
+
+
+.spoty_frame {
+    position: relative;
+    left: 0; 
+    width: 80%; 
+    height: 352px; 
+}
+
+.container_full{
+    width: 100%;
+    height: 500px;
+}
