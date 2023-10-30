@@ -163,6 +163,10 @@ Small tablet landscape (800x600)
         .showen_artist_videos{
             display: block;
         }
+        .art_indem_img{
+            width: 100%;
+            height: 420px;
+        }
 
 }
 
@@ -203,6 +207,11 @@ Small tablet landscape (800x600)
     }
     .container .row .col .bio_inem {
         font-size: 22px;
+    }
+
+    .art_indem_img{
+        width: 100%;
+        height: 320px;
     }
 }
 
