@@ -1,0 +1,5 @@
+setInterval(function(){$(".hide_listen").hide("slow",function(){})},5500),$(".ir-arriba").on("click",function(){$("body, html").animate({scrollTop:"0px"},300)}),$(window).on("scroll",function(){$(this).scrollTop()>0?$(".ir-arriba").slideDown(300):$(".ir-arriba").slideUp(300)}),$("#enviar").on("click",function(){var a=$("#usuario").val(),o=$("#email").val();$.ajax({type:"POST",url:"php/add_users.php",data:{usuario:a,email:o}}).done(function(a){// $('#msg_upd').html(msg),
+alert(a,"Confirmation Results")}).fail(function(){alert("Hubo un errror al cargar los v\xeddeos")})}),$("#fromulario").on("click",function(){var a=$("#name").val(),o=$("#email2").val(),i=$("#subject").val(),l=$("#com").val();$.ajax({type:"POST",url:"php/send_email.php",data:{name:a,email2:o,subject:i,com:l}}).done(function(a){// $('#msg_upd').html(msg),
+alert(a,"Confirmation Results")}).fail(function(){alert("Hubo un errror al cargar los v\xeddeos")})});//# sourceMappingURL=index.5757eb2a.js.map
+
+//# sourceMappingURL=index.5757eb2a.js.map

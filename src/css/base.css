@@ -1152,24 +1152,24 @@ margin-left: 22px;
     overflow: hidden;
 }
 .container_releases > div:nth-of-type(1) {
-    background: url("../img/r1.png") no-repeat 50% / cover;
+    background: url("../img/r6.jpg") no-repeat 50% / cover;
 }
 .container_releases > div:nth-of-type(2) {
-    background: url("../img/r2.png") no-repeat 50% / cover;
+    background: url("../img/r1.png") no-repeat 50% / cover;
 }
 .container_releases > div:nth-of-type(3) {
-    background: url("../img/r3.png") no-repeat 50% / cover;
+    background: url("../img/r2.png") no-repeat 50% / cover;
 }
 .container_releases > div:nth-of-type(4) {
-    background: url("../img/r4.png") no-repeat 50% / cover;
+    background: url("../img/r3.png") no-repeat 50% / cover;
 }
 
 .container_releases > div:nth-of-type(5) {
-    background: url("../img/r5.png") no-repeat 50% / cover;
+    background: url("../img/r4.png") no-repeat 50% / cover;
 }
 
 .container_releases > div:nth-of-type(6) {
-    background: url("../img/r6.png") no-repeat 50% / cover;
+    background: url("../img/r5.png") no-repeat 50% / cover;
 }
 .container_releases > div .content_releases {
     font-size: 1.5rem;
